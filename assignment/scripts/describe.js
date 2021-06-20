@@ -129,6 +129,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix - change colorOne to blue and colorTwo to red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -145,7 +146,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//Fix - instruction states "and" which is && and not || which represents either side can be true.
+//Should be &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
