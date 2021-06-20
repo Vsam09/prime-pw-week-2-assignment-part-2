@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We made a variable called name and set its value as Dane.
-// We than check to see if its an exact match using conditional.
-// We can clearly see that it does not match the variable.
-// We console.log 'How do you do?'.
+// We than check to see if its an exact match.
+// We can clearly see that it does not match.
+// We console.log ('How do you do?')
 
 //CODE
 /*
@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We created a two virables called secret with code valued at 123.
+// We created two virables called secret and code value of 123.
 // We than check to see if code is equal to exact code value, than multiple code by 2 to reveal secret.
 // we than check to see if the code is greater then 250, so
 // we console.log ( 'secret' )
@@ -70,11 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-//
-//
-//
-
+// We created 3 variables called isStudent, age and zip. We than set isStudent as true(boolean), age set to 34, and zip set to 55407.
+// We than use conditional to check to see which statment is true.
+// We can see conditional 1 and 2 does not match the variables but conditional 3 is in fact true.
+// We console.log ('Welcome to Prime!');
 //CODE
 /*
 let isStudent = true;
