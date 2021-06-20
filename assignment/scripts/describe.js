@@ -130,6 +130,7 @@ if (number >= 2) {
 
 /*
 //Fix - change colorOne to blue and colorTwo to red.
+//Should be colorOne = 'blue', colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -160,10 +161,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//Fix - "<=" represents less than or equal to. Instruction asked if its greater than or equal to.
+//Fix - midAge and age are in the wrong position in conditional. Instruction ased if age is greater than or equal to midAge.
+//Should be (age >= midAge)
+//Fix - else represents false in the statment. Instruction states the statement is true.
+//Solution - console.log for if(true statement) shoud be ('entry') and else(false statement) should be ('no entry'.) 
 if(minAge <= age) {
   console.log('no entry');
-} else {
+  else {
   console.log('enter');
 }
 */
